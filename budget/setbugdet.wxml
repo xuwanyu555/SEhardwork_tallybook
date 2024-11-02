@@ -1,0 +1,4 @@
+<view class="container">
+  <button bindtap="showBudgetModal">设置预算</button>
+  <view>当前预算：¥{{budget}}</view>
+</view>
