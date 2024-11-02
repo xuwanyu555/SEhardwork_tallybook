@@ -1,0 +1,8 @@
+<view class="container">
+  <text class="title">账单列表</text>
+  <view wx:for="{{records}}" wx:key="index">
+    <view class="record" bindtap="viewRecord" data-index="{{index}}">
+      <text>{{item.date}} - {{item.amount}} - {{item.category}} - {{item.type}}</text>
+    </view>
+  </view>
+</view>
