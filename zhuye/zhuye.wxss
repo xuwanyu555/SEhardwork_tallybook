@@ -1,0 +1,67 @@
+/* 页面整体样式 */
+.title {
+  padding: 30px;
+  font-family: -apple-system-font, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+.today-expense, .today-income {
+  margin: 5px 0; /* 为每个元素添加上下5px的外边距 */
+}
+
+.today-expense {
+  margin-left: 5px;
+  /* 为今日支出元素添加右边距 */
+}
+
+.today-income {
+  margin-left: 10px; /* 为收入元素添加左边距 */
+}
+
+.expend {
+margin-left: 5px;
+margin-right: 10px;
+}
+
+.income {
+margin-left: 10px;
+}
+
+.stats {
+  background-color: #f8f8f8; 
+}
+
+.Budget {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.chartanalysis {
+  margin-bottom: 20px;
+}
+
+.today-stats, .chartanalysis, .recorded-transactions {
+  margin-bottom: 20px;
+}
+
+
+.recorded-transactions {
+  background-color: #f8f8f8; /* 浅灰色背景 */
+  padding: 250px; 
+  border-radius: 5px; 
+}
+
+
+/* 类别样式 */
+.chartanalysi button{
+  background-color: #007aff; /* 蓝色背景 */
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+}
+
