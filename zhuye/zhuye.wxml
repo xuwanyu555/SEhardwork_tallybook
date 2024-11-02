@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="title">我的记账本</view>
+
+  <view class="stats">
+    <text class="expend">本月支出：{{totalExpenditure}}</text>
+    <text class="income">本月收入：{{totalIncome}}</text>
+  </view>
+
+  <view class="Budget">
+    <text>预算剩余：{{budget}}</text>
+  </view>
+
+  <view class="today-stats">
+    <text class="today-expense">今日支出：{{todayExpenditure}}  </text>
+    <text class="today-income">收入：{{todayIncome}}</text>
+  </view>
+
+  <button bindtap="chartanalysi">查看图表分析</button>
+  <view class="recorded-transactions">
+  </view>
+
+  <button bindtap="addRecord">记一笔</button>
+</view>
